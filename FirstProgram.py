@@ -15,7 +15,7 @@ def main():
   #Use the user's name in the program.
   print("Hello ", user)
   #Ask the user for their age.
-age = input("How old are you?")
+age = int(input("How old are you?"))
   #Tell the user what year they were born in.
   #Assume that they have not had their birthday yet this year.
 birth = datetime.now().year - age
